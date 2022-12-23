@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: orange;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    display: block;
+    position: relative;
+    max-width: 1200px;
+    margin:0 auto;
+    top:0;
+    right:0;
+    left:0;
+    height: 50px;
+    z-index: 999;
+}
+
+.secondcontainer{
+    display: block;
+    background-color: aquamarine;
+    position:fixed;
+    margin: auto;
+    width: 100%;
+}
