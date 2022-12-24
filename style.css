@@ -2,16 +2,38 @@ body{
     margin: 0;
 }
 
-nav{
-    background-color: orange;
+
+
+nav.container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-expand-lg navbar-light bg-light{
+    background-color: orangered
 }
 
-nav .container {
+.categories{
     display: flex;
     justify-content: space-between;
 }
 
-.container{
+.categories .category-item{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background: radial-gradient(#FFFFFF, #FFEFBF);
+    text-align: center;
+    border-bottom: 2px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+.categories .category-item span{
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+    color: #666666;
+    margin: auto;
+}
+
+.container-fluid{
     display: block;
     position: relative;
     max-width: 1200px;
@@ -22,11 +44,17 @@ nav .container {
     height: 50px;
     z-index: 999;
 }
-
-.secondcontainer{
-    display: block;
-    background-color: aquamarine;
-    position:fixed;
-    margin: auto;
-    width: 100%;
+img{
+    vertical-align: middle;
 }
+.dropdown{
+    position: relative;
+}
+.heading{
+    display: block;
+    font-family: 'Francois One',sans-serif;
+    color:#D43900;
+    font-size:24px;
+}
+
+

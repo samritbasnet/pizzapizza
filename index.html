@@ -1,30 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>    
     <title>Pizza App</title>
 </head>
+
 <body>
     <nav>
-        <div class="container">
-            <a class="Menu">Menu</a>
-            <a class="My Orders">My Orders</a>
-            <a class="Our-Menu">Our Menu</a>
-            <a class="Contact-Us">Contact</a>
-            <a class="Order Online">Order Online</a> 
-                 </div>
-                         
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </nav>
-    <div class="secondcontainer">
-        <h1>Order Online And Track Order</h1>
-    </div>
+
     <button class="button-order">Order Now
 
     </button>
-    <!-- <img src="./Easiest-Pizza_22-2_11 (1).jpg"/> -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 categories">
+                <div class="category-item">
+                    <img class="img-fluid" src="https://www.popularpizza.ca/img/menu/buttons/specials.png">
+                    <span>Specials</span>
+                </div>
+                <div class="category-item">
+                    <img class="img-fluid" src="https://www.popularpizza.ca/img/menu/buttons/specials.png">
+                    <span>PIZZA</span>
+                </div>
+                <div class="category-item">
+                    <img class="img-fluid" src="https://www.popularpizza.ca/img/menu/buttons/sides.png">
+                    <span>Sides</span>
+                </div>
+                <div class="category-item">
+                    <img class="img-fluid" src="https://www.popularpizza.ca/img/menu/buttons/drinks.png">
+                    <span>DRINKS</span>
+                </div>
+                <div class="category-item">
+                    <img class="img-fluid" src="https://www.popularpizza.ca/img/menu/buttons/extras.png">
+                    <span>Extras</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div _ngcontent-ncl-9 class="menu-item">
+        <img src="https://www.popularpizza.ca/img/menu/deals/dips.jpg"/>
+        <span ngcontent-ncl-9 class="heading">Dipping Sauce</span>
+        <item option _ngcontent-ncl-9 _nghost-ncl-10>
+            <div ngcontent-ncl-10>
+                <div _ngcontent-ncl-10 class="dropdown open">
+                    <div _ngcontent-ncl-10 class="dropdown-toggle pdropdown" data-toogle="dropdown" aria-expanded="true">
+                        <span _ngcontent-ncl-10 class="left-text">Creamy Garlic</span>
+                    </div>
+            
+            </div>
+        </item>
+    </div>
+   
 </body>
+
 </html>
